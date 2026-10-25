@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Google Fonts: Hanken Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="card">
+    <!-- Left Card: Your Result -->
+    <section class="card-one">
+      <h1 class="title">Your Result</h1>
+      
+      <div class="circle">
+        <span class="score-big">76</span>
+        <p class="circle-paragraph">of 100</p>
+      </div>
+
+      <h2 class="sub-title">Great</h2>
+      <p class="paragraph">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </section>
+
+   <!-- Right Card: Summary -->
+    <section class="card-two">
+      <h2 class="summary-title">Summary</h2>
+
+      <!-- jQuery will dynamically insert the 4 rows here -->
+      <div class="summary-list" id="summary-list"></div>
+
+      <button class="btn-continue">Continue</button>
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/battleshopventureswaqas-blip" target="_blank">Waqas Siddique</a>.
+  </footer>
+
+  <!-- 1. jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <!-- 2. Your custom JS file -->
+  <script src="script.js"></script>
+</body>
+</html>
